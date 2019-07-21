@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+#formForSorted{
+    position: fixed;
+    left:50%;
+    margin-left: -360px;
+    padding: 10px;
+    background: #d2d5d7;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+#formForSorted input{
+    display: block;
+    margin-top: 15px;
+
+}
+#formForSorted p{
+    margin: 0 0 10px;
+}
+.comment{
+    padding: 12px;
+    width: 400px;
+    margin: 15px auto;
+    position: relative;
+    background-color: #5C5C5C;
+    border: 1px solid #fff;
+    color: white;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 0 #c2c2c2;
+    -webkit-box-shadow: 2px 2px 0 #c2c2c2;
+    box-shadow: 2px 2px 0 #c2c2c2;
+}
+.name{
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #ccc;
+}
+.email{
+
+}
+.date{
+    font-size: 10px;
+    padding: 6px 0;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #bbb;
+}
+.comment p{
+    font-size: 18px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+#addCommentContainer {
+    width: 400px;
+    background: #d2d5d7;
+    margin: 0 auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    display: block;
+}
+#addCommentContainer form{
+    padding: 10px;
+
+}
+#addCommentContainer form label{
+    display: block;
+
+}
+#addCommentContainer form input,
+#addCommentContainer form textarea{
+    margin-bottom: 15px;
+}
+ .buttons{
+    display: inline-block!important;
+}
+.buttons input[type='submit']:first-child{
+    margin-right: 15px;
+}
+.error{
+    margin-left: 15px;
+    color: red;
+    font-size: 13px;
+    position: relative;
+}
