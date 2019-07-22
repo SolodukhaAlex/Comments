@@ -47,8 +47,9 @@ while ($row = mysqli_fetch_assoc($result)) {
         <label for="messageBody">Текст сообщения</label>
         <textarea name="messageBody" id="messageBody" cols="30" rows="10"></textarea>
         <div class="buttons">
-            <input type="submit" id="preview" value="Предворительный просмотр">
+            <button id="preview" value="">Предворительный просмотр</button>
             <input type="submit" id="submit" value="Отправить">
+
         </div>
     </form>
 </div>
